@@ -11,7 +11,7 @@ public:
         else if(nums[i]==1)
          countone++ ;
          else
-          counttwo++ ;
+          counttwo++ 
       }
       int i=0  ;
       while(countzero>0){
