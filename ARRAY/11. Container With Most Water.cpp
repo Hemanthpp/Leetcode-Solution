@@ -9,7 +9,7 @@ public:
             int area=min(height[l],height[r])*(r-l);
             maxArea=max(maxArea,area);
             if(height[l]<height[r])
-            l++
+            l++;
             else
             r--;
 
