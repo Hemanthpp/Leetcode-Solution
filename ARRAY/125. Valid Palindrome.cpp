@@ -10,7 +10,7 @@ public:
             while (i<j && !isalnum(s[j]))
             j--;
             if(tolower(s[j])!=tolower(s[i]))
-                return false;
+                return false
                 i++;
                 j--;
 
